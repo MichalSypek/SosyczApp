@@ -16,6 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Kalkulator" />
+        <activity android:name=".Memy" />
+        <activity android:name=".Pasty" />
+        <activity android:name=".Cytaty" />
+        <activity android:name=".Terminarz"></activity>
     </application>
 
 </manifest>

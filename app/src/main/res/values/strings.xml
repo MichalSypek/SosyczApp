@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">SosyczApp</string>
+    <string name="memy">Memy</string>
+    <string name="kalkulator">Kalkulator</string>
+    <string name="pasty">Pasty</string>
+    <string name="cytaty">Cytaty</string>
+    <string name="terminarz">Terminarz</string>
 </resources>
