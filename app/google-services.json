@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "622870093776",
+    "firebase_url": "https://sosyczapp.firebaseio.com",
+    "project_id": "sosyczapp",
+    "storage_bucket": "sosyczapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:622870093776:android:79ca1e53cff39352",
+        "android_client_info": {
+          "package_name": "com.sypcio.sosyczapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "622870093776-3siam7sv49me0ggi35cnfm5rgbdpn6pd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sypcio.sosyczapp",
+            "certificate_hash": "056c51681131bb729b1ee7672302329dca7f590f"
+          }
+        },
+        {
+          "client_id": "622870093776-b19j6ae67jpo2r68t1ts26ggm2qfs54l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgB6a89-AyVITsAHED-F_662MnG7pdfi0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "622870093776-b19j6ae67jpo2r68t1ts26ggm2qfs54l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
