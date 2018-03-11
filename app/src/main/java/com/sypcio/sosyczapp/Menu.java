@@ -30,39 +30,38 @@ private FirebaseAuth.AuthStateListener authStateListener;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
 
-
-        final Button memy = findViewById(R.id.memy);
-        memy.setOnClickListener(new View.OnClickListener() {
+        final Button memes = findViewById(R.id.memy);
+        memes.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                openMemy();
+                openMemes();
             }
         });
 
-        final Button pasty = findViewById(R.id.pasty);
-        pasty.setOnClickListener(new View.OnClickListener() {
+        final Button pastas = findViewById(R.id.pasty);
+        pastas.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                openPasty();
+                openPastas();
             }
         });
 
-        final Button kalkulator = findViewById(R.id.kalkulator);
-        kalkulator.setOnClickListener(new View.OnClickListener() {
+        final Button calculator = findViewById(R.id.kalkulator);
+        calculator.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                openKalkulator();
+                openCalculator();
             }
         });
 
-        final Button cytaty = findViewById(R.id.cytaty);
-        cytaty.setOnClickListener(new View.OnClickListener() {
+        final Button quotes = findViewById(R.id.cytaty);
+        quotes.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                openCytaty();
+                openQuotes();
             }
         });
 
-        final Button terminarz = findViewById(R.id.terminarz);
-        terminarz.setOnClickListener(new View.OnClickListener() {
+        final Button timetable = findViewById(R.id.terminarz);
+        timetable.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                openTerminarz();
+                openTimetable();
             }
         });
 
@@ -79,28 +78,28 @@ private FirebaseAuth.AuthStateListener authStateListener;
 
     }
 
-    public void openMemy(){
-        Intent intent = new Intent(this, Memy.class);
+    public void openMemes(){
+        Intent intent = new Intent(this, Memes.class);
         startActivity(intent);
     }
 
-    public void openPasty(){
-        Intent intent = new Intent(this, Pasty.class);
+    public void openPastas(){
+        Intent intent = new Intent(this, Pastas.class);
         startActivity(intent);
     }
 
-    public void openKalkulator(){
-        Intent intent = new Intent(this, Kalkulator.class);
+    public void openCalculator(){
+        Intent intent = new Intent(this, Calculator.class);
         startActivity(intent);
     }
 
-    public void openCytaty(){
-        Intent intent = new Intent(this, Cytaty.class);
+    public void openQuotes(){
+        Intent intent = new Intent(this, Quotes.class);
         startActivity(intent);
     }
 
-    public void openTerminarz(){
-        Intent intent = new Intent(this, Terminarz.class);
+    public void openTimetable(){
+        Intent intent = new Intent(this, Timetable.class);
         startActivity(intent);
     }
 }

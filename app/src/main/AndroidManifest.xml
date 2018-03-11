@@ -30,12 +30,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Register"/>
-        <activity android:name=".Kalkulator" />
-        <activity android:name=".Memy" />
-        <activity android:name=".Pasty" />
-        <activity android:name=".Cytaty" />
-        <activity android:name=".Terminarz"></activity>
+        <activity android:name=".Calculator" />
+        <activity android:name=".Memes" />
+        <activity android:name=".Pastas" />
+        <activity android:name=".Quotes" />
+        <activity android:name=".Timetable"></activity>
     </application>
 
     <uses-permission android:name="android.permission.INTERNET"/>
