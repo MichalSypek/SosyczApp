@@ -10,4 +10,9 @@ public class Cytaty extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cytaty);
     }
+
+    @Override
+    public void onBackPressed() {
+        finish();
+    }
 }

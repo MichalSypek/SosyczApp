@@ -10,4 +10,9 @@ public class Terminarz extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_terminarz);
     }
+
+    @Override
+    public void onBackPressed() {
+     finish();
+    }
 }

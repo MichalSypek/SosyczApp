@@ -10,4 +10,9 @@ public class Kalkulator extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_kalkulator);
     }
+
+    @Override
+    public void onBackPressed() {
+        finish();
+    }
 }
