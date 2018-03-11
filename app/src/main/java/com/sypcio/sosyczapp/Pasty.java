@@ -10,4 +10,9 @@ public class Pasty extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pasty);
     }
+
+    @Override
+    public void onBackPressed() {
+        finish();
+    }
 }
